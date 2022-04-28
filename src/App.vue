@@ -10,7 +10,11 @@
   <Service />
   <Benifit />
   <Testimonial />
-  <calltoaction />
+  <Blog />
+  <Calltoaction />
+  <Contact />
+  <Footer />
+  <Copyright />
 </template>
 
 <script>
@@ -22,6 +26,10 @@ import Service from "./components/Service.vue";
 import Benifit from "./components/Benifit.vue";
 import Testimonial from "./components/Testimonial.vue";
 import Calltoaction from "./components/Calltoaction.vue";
+import Blog from "./components/Blog.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
+import Copyright from "./components/Copyright.vue";
 export default {
   name: "App",
   components: {
@@ -33,6 +41,10 @@ export default {
     Benifit,
     Testimonial,
     Calltoaction,
+    Blog,
+    Contact,
+    Footer,
+    Copyright,
   },
 };
 </script>
