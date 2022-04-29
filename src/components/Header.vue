@@ -55,12 +55,11 @@
 .site-header-main {
   margin: 0px;
   padding: 15px;
-  background: rgba(255, 255, 255, 0.7);
-  position: absolute;
+  background: #fff;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9;
+  z-index: 99;
+  box-shadow: 0px 10px 60px rgb(0 0 0 / 8%);
 }
 .site-header-main .navbar {
   padding: 0px;
