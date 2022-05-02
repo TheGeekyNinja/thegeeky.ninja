@@ -31,7 +31,7 @@
 }
 .banner-con-main {
   margin: 0px;
-  padding: 0px 0 220px 0;
+  padding: 0px 0 100px 0;
   text-align: center;
 }
 .banner-con-main h2 {

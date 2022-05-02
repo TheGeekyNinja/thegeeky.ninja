@@ -1,6 +1,13 @@
 <template>
   <div class="service-main-sec">
     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="service-main-heading-area">
+            <h2>Our Service</h2>
+          </div>
+        </div>
+      </div>
       <div class="row custom-row">
         <div class="col-lg-4 col-md-6">
           <div class="service-item-block">
@@ -570,7 +577,7 @@
 <style>
 .service-main-sec {
   margin: 0px;
-  padding: 100px 0;
+  padding: 160px 0 100px 0;
   background: #121212;
   position: relative;
   top: 0px;
@@ -585,9 +592,26 @@
   background: #121212;
   z-index: -1;
 }
+.service-main-heading-area {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.service-main-heading-area h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 80px 0;
+}
 .custom-row {
   position: relative;
-  top: -330px;
+  top: 0px;
 }
 .service-item-block {
   margin: 0px;
