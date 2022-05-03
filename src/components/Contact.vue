@@ -1,143 +1,195 @@
 <template>
-  <div class="contact-main-sec">
-    <div class="container-fluid p-0">
-      <div class="row g-0">
-        <div class="col-lg-6 col-12">
-          <div class="map-sec-block">
-            <div class="map-sec-block-inner">
-              <img src="../assets/images/map.png" alt="" class="img-fluid" />
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-12">
-          <div class="contactform-item-block">
-            <div class="contactform-item-block-inner">
-              <div class="row justify-content-center g-0">
-                <div class="col-12">
-                  <div class="contactform-con-block">
-                    <h2>Contact Us</h2>
-                    <div class="contactform-con-block-inner">
-                      <form>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            name=""
-                            class="form-control"
-                            placeholder="Email address"
-                          />
-                        </div>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            name=""
-                            class="form-control"
-                            placeholder="First name"
-                          />
-                        </div>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            name=""
-                            class="form-control"
-                            placeholder="Last name"
-                          />
-                        </div>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            name=""
-                            class="form-control"
-                            placeholder="Contact number"
-                          />
-                        </div>
-                        <div class="form-group">
-                          <textarea
-                            class="form-control"
-                            placeholder="Massege..."
-                          ></textarea>
-                        </div>
-                        <div class="form-group">
-                          <button type="submit" class="primary-btn">
-                            Submit
-                          </button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
+  <section class="call-back">
+    <div class="container">
+      <div class="row d-flex g-0">
+        <di class="col-lg-7">
+          <div class="call-sec-left-main">
+            <div class="call-sec-left-inner">
+              <h3>Request a Call Back</h3>
+              <div class="call-details">
+                <div class="call-name">
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Name"
+                    id=""
+                    class="form-control"
+                  />
+                </div>
+                <div class="call-email">
+                  <input
+                    type="email"
+                    name=""
+                    placeholder="Email"
+                    id=""
+                    class="form-control"
+                  />
+                </div>
+                <div class="call-phone">
+                  <input
+                    type="tel"
+                    name=""
+                    placeholder="Phone"
+                    id=""
+                    class="form-control"
+                  />
+                </div>
+                <div class="call-message">
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="Message"
+                    class="form-control"
+                  ></textarea>
                 </div>
               </div>
+              <div class="call-submit">
+                <a href="http://#">Submit Now </a>
+              </div>
             </div>
+          </div>
+        </di>
+        <div class="col-lg-5">
+          <div class="call-sec-right-main">
+            <img
+              src="../assets/images/call.jpg"
+              alt=""
+              srcset=""
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style>
-.contact-main-sec {
-  margin: 0px;
-  padding: 0 0 100px 0;
-  background: #121212;
+.call-back {
+  padding: 100px 0;
 }
-.map-sec-block {
-  margin: 0px;
-  padding: 0px;
-}
-.map-sec-block-inner {
-  margin: 0px;
-  padding: 0px;
-}
-.map-sec-block-inner img {
-  height: 850px;
-  object-fit: cover;
+
+.call-sec-left-main {
+  background-color: #121212;
   width: 100%;
-}
-.contactform-item-block {
-  margin: 50px;
-  padding: 0px;
-}
-.contactform-item-block-inner {
-  margin: 0px;
-  padding: 0px;
-}
-.contactform-con-block {
-  margin: 0px;
-  padding: 0px;
-}
-.contactform-con-block-inner {
-  margin: 0px;
+  height: 100%;
   padding: 50px;
+}
+
+.call-sec-left-inner h3 {
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.call-sec-left-inner h3::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 15px;
+  background-color: #d11d27;
+  bottom: 7px;
+  left: 0px;
+  border: none;
   border-radius: 10px;
-  background: #fff;
 }
-.contactform-con-block-inner .form-group {
-  margin: 0 0 1rem 0;
-}
-.contactform-con-block-inner .form-control {
-  height: 55px;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: #121212;
-  background-color: #fff;
-  border: 2px solid #d11d27;
-  padding-left: 20px;
-  transition: border 0.5s ease-in-out;
-}
-.contactform-con-block-inner textarea {
-  height: 200px !important;
-  padding: 20px;
-}
-.contactform-con-block-inner .primary-btn {
+
+.call-sec-left-inner h3::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 25px;
+  background-color: #d11d27;
+  bottom: 7px;
+  left: 20px;
+  border-radius: 10px;
   border: none;
 }
-.contactform-item-block h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
+
+.call-name,
+.call-email,
+.call-phone {
+  padding-bottom: 15px;
+}
+
+.call-message {
+  padding-bottom: 30px;
+}
+
+.call-submit a {
+  padding: 13px 34px;
+  text-decoration: none;
+  background-color: #d11d27;
   color: #fff;
-  font-size: 44px;
-  line-height: 1.4em;
-  margin: 0px 0 30px 0px;
+  transition: all 0.3s ease-in-out;
+  font-family: "DM Sans", sans-serif;
+  margin: 40px 0 0 0;
+  display: inline-block;
+}
+
+.call-submit a:hover {
+  padding: 13px 34px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #d11d27;
+}
+
+.call-details input {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  transition: all 0.3ms ease-in-out;
+  padding: 10px 10px;
+}
+
+.call-details input:focus {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border: #d11d27 1px solid;
+  caret-color: #fff;
+}
+
+.call-details textarea {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.call-details textarea:focus {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border: 1px solid #d11d27;
+  caret-color: #fff;
+}
+
+.call-sec-right-main {
+  position: relative;
+  height: 100%;
+}
+
+.call-sec-right-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.call-fig {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
 }
 </style>
 <script></script>

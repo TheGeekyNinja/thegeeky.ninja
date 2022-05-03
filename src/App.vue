@@ -10,6 +10,10 @@
   <Testimonial />
   <Partner />
   <Module />
+  <Newsletter />
+  <Blog />
+  <Contact />
+  <Footer />
 </template>
 
 <script>
@@ -20,6 +24,10 @@ import About from "./components/About.vue";
 import Testimonial from "./components/Testimonial.vue";
 import Partner from "./components/Partner.vue";
 import Module from "./components/Module.vue";
+import Blog from "./components/Blog.vue";
+import Newsletter from "./components/Newsletter.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
@@ -30,6 +38,10 @@ export default {
     Testimonial,
     Partner,
     Module,
+    Blog,
+    Newsletter,
+    Contact,
+    Footer,
   },
 };
 </script>
