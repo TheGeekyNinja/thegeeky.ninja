@@ -1,37 +1,51 @@
 <template>
   <div class="about-main-sec">
     <div class="container">
-      <div class="row align-items-center g-0">
-        <div class="col-lg-6">
-          <div class="about-left-main">
-            <div class="about-left-inner">
-              <h3>WELCOME TO:</h3>
-              <h2>Name of your <span>service</span></h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Tenetur corporis, culpa provident aspernatur molestias deserunt
-                itaque laboriosam consequatur natus dolorem vero magnam iste
-                harum perspiciatis doloribus ratione quo eum. Quas.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Tenetur corporis, culpa provident aspernatur molestias deserunt
-                itaque laboriosam consequatur natus dolorem vero magnam iste
-                harum perspiciatis doloribus ratione quo eum. Quas.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Tenetur corporis, culpa provident aspernatur molestias deserunt
-                itaque laboriosam consequatur natus dolorem vero magnam iste
-                harum perspiciatis doloribus ratione quo eum. Quas.
-              </p>
-            </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="about-heading-area">
+            <h3>Lorem ipsum Doller</h3>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="about-right-main">
-            <div class="about-right-inner">
-              <img src="../assets/images/about.jpg" alt="" class="img-fluid" />
+      </div>
+      <div class="about-con-main-sec">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12">
+            <div class="about-left-main-sec">
+              <div class="about-left-inner-sec">
+                <img
+                  src="../assets/images/about.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="about-right-main-sec">
+              <div class="about-right-inner-sec">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  velit eius minus nemo eligendi eum fugiat sequi recusandae
+                  omnis non.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto iure officiis similique, in voluptas, sed tempore
+                  sunt et ab repellendus aliquid autem deserunt labore ut cum
+                  error culpa ad alias! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Architecto iure officiis similique, in
+                  voluptas, sed tempore sunt et ab repellendus aliquid autem
+                  deserunt labore ut cum error culpa ad alias!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  velit eius minus nemo eligendi eum fugiat sequi recusandae
+                  omnis non.
+                </p>
+                <a href="javascript:void(0)" class="primary-btn">Read more</a>
+              </div>
             </div>
           </div>
         </div>
@@ -43,58 +57,91 @@
 <style>
 .about-main-sec {
   margin: 0px;
-  padding: 100px 0;
-  background: #f5f5f5;
+  padding: 150px 0;
 }
-.about-left-main {
+.about-heading-area {
   margin: 0px;
   padding: 0px;
-  position: relative;
-  right: -80px;
+  text-align: center;
 }
-.about-left-inner {
-  margin: 0px;
-  padding: 50px;
-  background: #fff;
-  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.35);
-  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.35);
-}
-.about-left-inner h3 {
+.about-heading-area h3 {
   font-family: "DM Sans", sans-serif;
+  font-style: normal;
   font-weight: 500;
-  color: #121212;
-  line-height: 28px;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
   text-transform: uppercase;
+  color: #121221;
   margin: 0 0 15px 0;
+  position: relative;
+  z-index: 1;
 }
-.about-left-inner h2 {
+.about-heading-area h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0px;
   color: #d11d27;
-  font-size: 44px;
-  line-height: 1.4em;
-  margin: 0 0 30px 0;
+  margin: 0px;
 }
-.about-left-inner h2 span {
-  display: block;
+.about-con-main-sec {
+  margin: 50px 0 0 0;
+  padding: 0px;
 }
-.about-left-inner p {
+.about-left-main-sec {
+  margin: 0px;
+  padding: 20px;
+  border: 2px solid #d11d27;
+  position: relative;
+}
+.about-left-inner-sec img {
+  height: 540px;
+  object-fit: cover;
+  width: 100%;
+}
+.about-right-main-sec {
+  margin: 0px;
+  padding: 0px;
+}
+.about-right-inner-sec {
+  margin: 0px;
+  padding: 0px;
+}
+.about-right-inner-sec p {
   font-family: "DM Sans", sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 28px;
-  color: #121212;
-  margin: 0 0 20px 0;
+  letter-spacing: 0.05em;
+  color: #121221;
+  margin: 0 0 40px 0;
 }
-.about-right-main {
-  margin: 0px;
-  padding: 0px;
+.primary-btn {
+  display: inline-block;
+  padding: 19px 40px;
+  background: #d11d27;
+  border: 1px solid transparent;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all ease 0.4s;
+  border-radius: 15px 0px 15px 0px;
+  text-decoration: none;
 }
-.about-right-inner {
-  margin: 0px;
-  padding: 0px;
+.primary-btn:hover {
+  background: transparent;
+  border: 1px solid #d11d27;
+  color: #d11d27;
 }
 </style>
 <script></script>
