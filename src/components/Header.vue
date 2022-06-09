@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="javascript:void(0)"
-            ><img src="../assets/images/Logo.png" alt="logo" class="img-fluid"
+            ><img src="../assets/images/tgn-logo.png" alt="logo" class="img-fluid"
           /></a>
           <button
             class="navbar-toggler"
@@ -18,7 +18,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto" style="display:none;">
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -52,10 +52,13 @@
 
 
 <style>
+.img-fluid {
+  width:150px;
+}
 .site-header-main {
   margin: 0px;
   padding: 15px;
-  background: #fff;
+  background: #0c1200;
   position: sticky;
   top: 0;
   z-index: 99;

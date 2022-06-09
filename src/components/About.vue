@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col-md-12">
           <div class="about-heading-area">
-            <h3>Lorem ipsum Doller</h3>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <h3>About The Geeky Ninja</h3>
+            <h2>TGN is a team of technical and management talent</h2>
           </div>
         </div>
       </div>
@@ -15,7 +15,7 @@
             <div class="about-left-main-sec">
               <div class="about-left-inner-sec">
                 <img
-                  src="../assets/images/about.jpg"
+                  src="../assets/images/big-logo.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -26,25 +26,18 @@
             <div class="about-right-main-sec">
               <div class="about-right-inner-sec">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                  velit eius minus nemo eligendi eum fugiat sequi recusandae
-                  omnis non.
+                  The Geeky Ninja is a privately held consulting and development
+                  company owned and operated by Graham Jenkins.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Architecto iure officiis similique, in voluptas, sed tempore
-                  sunt et ab repellendus aliquid autem deserunt labore ut cum
-                  error culpa ad alias! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Architecto iure officiis similique, in
-                  voluptas, sed tempore sunt et ab repellendus aliquid autem
-                  deserunt labore ut cum error culpa ad alias!
+                  Established in 2016 as a one man consulting business, Graham has built
+                  TGN into a small-medium consultation and implementation company. TGN Specializes
+                  in bridging the world of custom smart contracts and DApps with goal driven
+                  management teams.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                  velit eius minus nemo eligendi eum fugiat sequi recusandae
-                  omnis non.
+                  P.S. This site was totally thrown up on the first day of Consensus. We prefer to focus on our clients' sites first ;-)
                 </p>
-                <a href="javascript:void(0)" class="primary-btn">Read more</a>
               </div>
             </div>
           </div>
