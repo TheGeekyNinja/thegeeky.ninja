@@ -14,12 +14,9 @@
         </div>
         <div class="col-lg-5">
           <div class="call-sec-right-main">
-            <img
-              src="../assets/images/call.jpg"
-              alt=""
-              srcset=""
-              class="img-fluid"
-            />
+            <div>
+            &lt;<span class="contactColor">Contact</span> <span style="color:red;">/</span>&gt;
+            </div>
           </div>
         </div>
       </div>
@@ -31,12 +28,28 @@
 .call-back {
   padding: 100px 0;
 }
-
+.call-sec-right-main .contactColor {
+  color: #609bd7;
+}
 .call-sec-left-main {
   background-color: #121212;
   width: 100%;
   height: 100%;
   padding: 50px;
+}
+.call-sec-right-main {
+  background-color: #121212;
+  color:white;
+  font-size: 40px;
+  vertical-align: middle;
+  height:100%;
+}
+.call-sec-right-main div {
+  display:block;
+  margin: auto;
+  text-align:center;
+  vertical-align: middle;
+  padding-top:140px;
 }
 
 .call-sec-left-inner a {
