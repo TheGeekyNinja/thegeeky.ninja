@@ -13,7 +13,7 @@
           <div class="service-item-block">
             <div class="service-item-block-inner">
               <div class="service-img-area">
-                <img src="" class="img-fluid" />
+                <img src="../assets/images/star3.png" class="img-fluid" />
                 <div class="service-overlay-con">
                   <div class="service-overlay-con-inner">
                     <div class="service-heading-area">
@@ -40,7 +40,7 @@
           <div class="service-item-block">
             <div class="service-item-block-inner">
               <div class="service-img-area">
-                <img src="" class="img-fluid" />
+                <img src="../assets/images/star1.png" class="img-fluid" />
                 <div class="service-overlay-con">
                   <div class="service-overlay-con-inner">
                     <div class="service-heading-area">
@@ -65,7 +65,7 @@
           <div class="service-item-block">
             <div class="service-item-block-inner">
               <div class="service-img-area">
-                <img src="" class="img-fluid" />
+                <img src="../assets/images/star2.png" class="img-fluid" />
                 <div class="service-overlay-con">
                   <div class="service-overlay-con-inner">
                     <div class="service-heading-area">
@@ -92,7 +92,7 @@
           <div class="service-item-block">
             <div class="service-item-block-inner">
               <div class="service-img-area">
-                <img src="" class="img-fluid" />
+                <img src="../assets/images/star4.png" class="img-fluid" />
                 <div class="service-overlay-con">
                   <div class="service-overlay-con-inner">
                     <div class="service-heading-area">
@@ -117,7 +117,7 @@
           <div class="service-item-block">
             <div class="service-item-block-inner">
               <div class="service-img-area">
-                <img src="" class="img-fluid" />
+                <img src="../assets/images/star2.png" class="img-fluid" />
                 <div class="service-overlay-con">
                   <div class="service-overlay-con-inner">
                     <div class="service-heading-area">
