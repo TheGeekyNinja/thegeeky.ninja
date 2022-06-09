@@ -4,13 +4,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="banner-con-main">
-            <h2>Lorem</h2>
-            <h3>Lorem Ipsum</h3>
-            <h2>Lorem ipsum</h2>
-            <h4>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              <span>optio in libero sint.</span>
-            </h4>
+            <h2>The Geeky Ninja</h2>
+            <h3>CTO as a Service</h3><br />
+            <h3>Consulting</h3><br />
+            <h3>Blockchain Development</h3>
+            <h4>(we build web sites too)</h4>
           </div>
         </div>
       </div>

@@ -12,6 +12,7 @@ const routes = [
         component: About,
     },
 ];
+document.title="The Geeky Ninja: Technical Leadership and Development Services";
 
 const router = createRouter({
     history: createWebHistory(),

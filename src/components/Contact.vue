@@ -2,55 +2,16 @@
   <section class="call-back">
     <div class="container">
       <div class="row d-flex g-0">
-        <di class="col-lg-7">
+        <div class="col-lg-7">
           <div class="call-sec-left-main">
             <div class="call-sec-left-inner">
-              <h3>Request a Call Back</h3>
-              <div class="call-details">
-                <div class="call-name">
-                  <input
-                    type="text"
-                    name=""
-                    placeholder="Name"
-                    id=""
-                    class="form-control"
-                  />
-                </div>
-                <div class="call-email">
-                  <input
-                    type="email"
-                    name=""
-                    placeholder="Email"
-                    id=""
-                    class="form-control"
-                  />
-                </div>
-                <div class="call-phone">
-                  <input
-                    type="tel"
-                    name=""
-                    placeholder="Phone"
-                    id=""
-                    class="form-control"
-                  />
-                </div>
-                <div class="call-message">
-                  <textarea
-                    name="message"
-                    id=""
-                    cols="30"
-                    rows="5"
-                    placeholder="Message"
-                    class="form-control"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="call-submit">
-                <a href="http://#">Submit Now </a>
-              </div>
+              <h3>Connect with us!</h3>
+              <p><a href="https://discord.gg/VVW3v2ABuT">Discord</a></p>
+              <p><a href="https://t.me/TheGeekyNinja">Telegram</a></p>
+              <p><a href="mailto:contact@thegeeky.ninja">Email</a></p>
             </div>
           </div>
-        </di>
+        </div>
         <div class="col-lg-5">
           <div class="call-sec-right-main">
             <img
@@ -78,6 +39,10 @@
   padding: 50px;
 }
 
+.call-sec-left-inner a {
+  color: #fff;
+  font-size:24px;
+}
 .call-sec-left-inner h3 {
   color: #fff;
   font-weight: 700;
