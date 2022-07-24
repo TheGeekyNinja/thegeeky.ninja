@@ -1,43 +1,38 @@
 <template>
   <Header />
-  <Banner />
-  <Service />
-  <About />
-  <!-- <Testimonial /> -->
-  <!-- <Partner /> -->
-  <!-- <Module /> -->
-  <!-- <Newsletter /> -->
-  <!-- <Blog /> -->
-  <Contact />
-  <Footer />
+  <PageContent pageID=1 />
+  <PageContent pageID=2 />
 </template>
 
 <script>
+import { ApolloClient, createHttpLink, InMemoryCache } from '@apollo/client/core'
+import { DefaultApolloClient } from '@vue/apollo-composable'
+import { provide } from 'vue'
 import Header from "./components/Header.vue";
-import Banner from "./components/Banner.vue";
-import Service from "./components/Service.vue";
-import About from "./components/About.vue";
-// import Testimonial from "./components/Testimonial.vue";
-// import Partner from "./components/Partner.vue";
-// import Module from "./components/Module.vue";
-// import Blog from "./components/Blog.vue";
-// import Newsletter from "./components/Newsletter.vue";
-import Contact from "./components/Contact.vue";
+import PageContent from "./components/PageContent.vue";
 // import Footer from "./components/Footer.vue";
+
+const httpLink = createHttpLink({
+  // You should use an absolute URL here
+  uri: 'https://backend.thegeeky.ninja/graphql',
+})
+
+// Cache implementation
+const cache = new InMemoryCache()
+
+// Create the apollo client
+const apolloClient = new ApolloClient({
+  link: httpLink,
+  cache,
+})
 export default {
   name: "App",
+  setup () {
+    provide(DefaultApolloClient, apolloClient)
+  },
   components: {
     Header,
-    Banner,
-    Service,
-    About,
-    // Testimonial,
-    // Partner,
-    // Module,
-    // Blog,
-    // Newsletter,
-    Contact,
-    // Footer,
+    PageContent,
   },
 };
 </script>
