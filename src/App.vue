@@ -1,7 +1,6 @@
 <template>
   <Header />
   <PageContent pageID=1 />
-  <PageContent pageID=2 />
 </template>
 
 <script>
