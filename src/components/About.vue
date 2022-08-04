@@ -35,9 +35,6 @@
                   in bridging the world of custom smart contracts and DApps with goal driven
                   management teams.
                 </p>
-                <p>
-                  P.S. This site was totally thrown up on the first day of Consensus. We prefer to focus on our clients' sites first ;-)
-                </p>
               </div>
             </div>
           </div>
