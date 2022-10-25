@@ -5,8 +5,8 @@ import { computed, ref } from 'vue';
 const API = import.meta.env.VITE_STRAPI_BASEURL;
 
 const config = { // load config info
-  questionApi: "tgn-faqs",
-  // blogApi: "blogPosts",
+  questionApi: "vegan-robs-faqs?pagination%5BpageSize%5D=100",
+  blogApi: "vrt-blogs",
   // contentApi: "vrt-site-content",
 }
 
@@ -40,15 +40,14 @@ const getData = async (dataType) => {
 }
 
 const init = async () => {
-    // Checks config and loads data
-  const configValues = Object.values(config);
-  for (let i = 0; i < configValues.length; i++) {
-    const value = configValues[i];
+  // Checks config and loads data
+  for (const i in config) {
+    const value = config[i];
     
     let data = await getData(value);
 
     if (typeof data === "object") {
-      dataStructure.value[value] = data;
+      dataStructure.value[i] = data;
     } // else don't overwrite it when HTTP dies!
   }
 }
